@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>L'ESSENCE | Luxury Parfumerie</title>
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+ 
+<script>
+ tailwind.config = {
+ darkMode: 'class',
+ theme: {
+ extend: {
+ colors: {
+ secondary: '#e9c349',
+ background: '#121414',
+ surface: '#121414',
+ surfaceContainer: '#1e2020',
+ surfaceLow: '#1a1c1c',
+ onBackground: '#e2e2e2',
+ onSurfaceVariant: '#c4c7c7',
+ outline: '#8e9192'
+ },
+ fontFamily: {
+ headline: ['Bodoni Moda'],
+ body: ['Montserrat']
+ }
+ }
+ } 
+ } 
+</script>
+
+<!-- MAIN CSS FILE -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-background text-onBackground overflow-x-hidden font-body">
+
+<!-- NAVBAR -->
+<nav class="navbar">
+<div class="container nav-content">
+
+<div class="logo">L'ESSENCE</div>
+
+<div class="nav-links">
+<a href="#">Collections</a>
+<a href="#">Men</a>
+<a href="#">Women</a>
+<a href="#">Arabic</a>
+<a href="#">Boutique</a>
+</div>
+
+<div class="nav-icons">
+<button class="cart-btn">
+<span class="material-symbols-outlined">shopping_bag</span>
+<span id="cart-count">0</span>
+</button>
+
+<span class="material-symbols-outlined">person</span>
+</div>
+
+</div>
+</nav>
+<section class="hero-section">
+
+<img class="hero-image"
+src="https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=1600&auto=format&fit=crop"
+alt="Luxury Perfume">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-content">
+<h1>
+Discover the <br>
+<span>Essence of Luxury</span>
+</h1>
+
+<p>
+An olfactory journey through the finest notes of Oud, Bergamot, and Jasmine,
+crafted for the discerning connoisseur.
+</p>
+
+<button class="hero-btn">Shop Now</button>
+</div>
+
+</section>
+
+<!-- FEATURED -->
+<section class="featured-section container">
+
+<div class="section-header">
+<div>
+<span class="small-title">Signature Line</span>
+<h2>Featured Collections</h2>
+</div>
+</div>
+
+<div class="featured-grid">
+
+<div class="featured-card large-card">
+<img src="https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=1200&auto=format&fit=crop">
+<div class="card-overlay"></div>
+
+<div class="card-content">
+<h3>L'OR NOIR</h3>
+<p>Spicy black pepper meets the warmth of Moroccan Amber.</p>
+
+<div class="card-bottom">
+<span>$340.00</span>
+<button class="add-cart">Add to Bag</button>
+</div>
+</div>
+</div>
+
+<div class="featured-card">
+<img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?q=80&w=1200&auto=format&fit=crop">
+<div class="card-overlay"></div>
+
+<div class="card-content">
+<h3>SILVER OUD</h3>
+<p>Cool cedarwood and rare agarwood.</p>
+
+<div class="card-bottom">
+<span>$280.00</span>
+<button class="add-cart">Add to Bag</button>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories-section">
+<div class="container">
+
+<h2 class="center-title">The Curated Spheres</h2>
+
+<div class="categories-grid">
+
+<div class="category-card">
+<img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop">
+<h4>FOR HIM</h4>
+</div>
+
+<div class="category-card">
+<img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1200&auto=format&fit=crop">
+<h4>FOR HER</h4>
+</div>
+
+<div class="category-card">
+<img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1200&auto=format&fit=crop">
+<h4>ARABIC OUD</h4>
+</div>
+
+<div class="category-card">
+<img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop">
+<h4>THE BOUTIQUE</h4>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- OFFER -->
+<section class="offer-section">
+<div class="offer-box">
+
+<span class="small-title">EXCLUSIVE ENCLAVE</span>
+
+<h2>Receive 20% Off</h2>
+
+<p>
+Join the L'Essence Privé society and unlock early access to our most limited releases.
+</p>
+
+<div class="newsletter">
+<input type="email" placeholder="Your Email Address">
+<button>Subscribe</button>
+</div>
+
+</div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section container">
+
+<div class="about-grid">
+
+<div>
+<img class="about-image"
+src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=1200&auto=format&fit=crop">
+</div>
+
+<div class="about-content">
+<span class="small-title">OUR HERITAGE</span>
+
+<h2>Crafting the Invisible Jewelry</h2>
+
+<p>
+Founded in the heart of Grasse, L'ESSENCE has been dedicated to the pursuit of the perfect fragrance for over a century.
+</p>
+
+<p class="quote">
+"Perfume is the most intense form of memory."
+</p>
+
+<button class="story-btn">Read Our Story</button>
+</div>
+
+</div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews-section">
+<div class="container">
+
+<h2 class="center-title">The Connoisseur's Word</h2>
+
+<div class="reviews-grid">
+
+<div class="review-card glass-panel">
+<div class="stars">★★★★★</div>
+<p>
+"L'Or Noir is unlike anything I've ever worn."
+</p>
+<h5>Eleanor H.</h5>
+</div>
+
+<div class="review-card glass-panel">
+<div class="stars">★★★★★</div>
+<p>
+"The presentation alone is breathtaking."
+</p>
+<h5>Marcus D.</h5>
+</div>
+
+<div class="review-card glass-panel">
+<div class="stars">★★★★★</div>
+<p>
+"Silver Oud has become my signature scent."
+</p>
+<h5>Sofia A.</h5>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+<h2>L'ESSENCE</h2>
+
+<p>
+Elevating the senses through the mastery of French perfumery and rare ingredients.
+</p>
+
+<div class="team-box">
+<h4>Team Members</h4>
+
+<span>Shahd ElSayed Shahat Ali</span>
+<span>Shahd Mohamed ElNashar</span>
+<span>Shahd Mohamed Nabawy</span>
+<span>Shahd Ahmed Hafez</span>
+</div>
+
+</footer>
+
+<!-- MAIN JAVASCRIPT FILE -->
+<script src="script.js"></script>
+
+</body>
+</html>
